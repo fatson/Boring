@@ -1,0 +1,71 @@
+.tusiji{
+	width: 170px;
+	height: 200px;
+	position: relative;
+	background: white;
+	border: 1px solid black; 
+}
+
+.head{
+	width: 160px;
+	height: 130px;
+	border:5px solid black;
+	border-radius:50%;
+	margin-top: 50px;
+	position:relative;
+	z-index: 100;
+	background: white;
+}
+
+.head .eye{
+	width: 46px;
+	height: 5px;
+	background: black;
+}
+.head .left{
+	position:absolute;
+	left:20px;
+	top:40px;
+}
+.head .right{
+	position:absolute;
+	right: 20px;
+	top:40px;
+}
+
+.ear{
+	width: 18px;
+	height: 60px;
+	border:5px solid black;
+	border-radius: 50% 30% 50% 50%;
+}
+.leftear{
+	position: absolute;
+	left:46px;
+	top:0px;
+	z-index: 10;
+}
+.rightear{
+	position:absolute;
+	left:86px;
+	top:0px;
+	z-index: 10;
+}
+.cover{
+	width: 13px;
+	height: 15px;
+	position: absolute;
+	left:55px;
+	top:50px;
+	z-index: 100;
+	background: white;
+}
+.cover2{
+	width: 13px;
+	height: 15px;
+	position: absolute;
+	left:93px;
+	top:50px;
+	z-index: 100;
+	background: white;
+}
